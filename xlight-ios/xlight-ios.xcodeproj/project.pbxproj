@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAB1EA71DFEDA5200B99F13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAB1EA61DFEDA5200B99F13 /* main.m */; };
+		DCAB1EAA1DFEDA5200B99F13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAB1EA91DFEDA5200B99F13 /* AppDelegate.m */; };
+		DCAB1EAD1DFEDA5200B99F13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAB1EAC1DFEDA5200B99F13 /* ViewController.m */; };
+		DCAB1EB01DFEDA5200B99F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB1EAE1DFEDA5200B99F13 /* Main.storyboard */; };
+		DCAB1EB31DFEDA5200B99F13 /* xlight_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCAB1EB11DFEDA5200B99F13 /* xlight_ios.xcdatamodeld */; };
+		DCAB1EB51DFEDA5200B99F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAB1EB41DFEDA5200B99F13 /* Assets.xcassets */; };
+		DCAB1EB81DFEDA5200B99F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB1EB61DFEDA5200B99F13 /* LaunchScreen.storyboard */; };
+		DCAB1EC31DFEDA5200B99F13 /* xlight_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAB1EC21DFEDA5200B99F13 /* xlight_iosTests.m */; };
+		DCAB1ECE1DFEDA5200B99F13 /* xlight_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAB1ECD1DFEDA5200B99F13 /* xlight_iosUITests.m */; };
+		DCAB1EDD1DFEE06200B99F13 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB1EDC1DFEE06200B99F13 /* CoreBluetooth.framework */; };
+		DCAB1EE41DFEE79700B99F13 /* MSBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAB1EE21DFEE79700B99F13 /* MSBluetoothManager.m */; };
+		DCAB1EE51DFEE79700B99F13 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCAB1EE31DFEE79700B99F13 /* ReadMe.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAB1EBF1DFEDA5200B99F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAB1E9A1DFEDA5200B99F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAB1EA11DFEDA5200B99F13;
+			remoteInfo = "xlight-ios";
+		};
+		DCAB1ECA1DFEDA5200B99F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAB1E9A1DFEDA5200B99F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAB1EA11DFEDA5200B99F13;
+			remoteInfo = "xlight-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCAB1EA21DFEDA5200B99F13 /* xlight-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xlight-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB1EA61DFEDA5200B99F13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCAB1EA81DFEDA5200B99F13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCAB1EA91DFEDA5200B99F13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCAB1EAB1DFEDA5200B99F13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCAB1EAC1DFEDA5200B99F13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCAB1EAF1DFEDA5200B99F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAB1EB21DFEDA5200B99F13 /* xlight_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = xlight_ios.xcdatamodel; sourceTree = "<group>"; };
+		DCAB1EB41DFEDA5200B99F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCAB1EB71DFEDA5200B99F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCAB1EB91DFEDA5200B99F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAB1EBE1DFEDA5200B99F13 /* xlight-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xlight-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB1EC21DFEDA5200B99F13 /* xlight_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xlight_iosTests.m; sourceTree = "<group>"; };
+		DCAB1EC41DFEDA5200B99F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAB1EC91DFEDA5200B99F13 /* xlight-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xlight-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB1ECD1DFEDA5200B99F13 /* xlight_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xlight_iosUITests.m; sourceTree = "<group>"; };
+		DCAB1ECF1DFEDA5200B99F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAB1EDC1DFEE06200B99F13 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DCAB1EE01DFEE5F500B99F13 /* xlight-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "xlight-ios.entitlements"; sourceTree = "<group>"; };
+		DCAB1EE11DFEE79700B99F13 /* MSBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBluetoothManager.h; sourceTree = "<group>"; };
+		DCAB1EE21DFEE79700B99F13 /* MSBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBluetoothManager.m; sourceTree = "<group>"; };
+		DCAB1EE31DFEE79700B99F13 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAB1E9F1DFEDA5200B99F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB1EDD1DFEE06200B99F13 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB1EBB1DFEDA5200B99F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB1EC61DFEDA5200B99F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAB1E991DFEDA5200B99F13 = {
+			isa = PBXGroup;
+			children = (
+				DCAB1EA41DFEDA5200B99F13 /* xlight-ios */,
+				DCAB1EC11DFEDA5200B99F13 /* xlight-iosTests */,
+				DCAB1ECC1DFEDA5200B99F13 /* xlight-iosUITests */,
+				DCAB1EA31DFEDA5200B99F13 /* Products */,
+				DCAB1EDB1DFEE06200B99F13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAB1EA31DFEDA5200B99F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB1EA21DFEDA5200B99F13 /* xlight-ios.app */,
+				DCAB1EBE1DFEDA5200B99F13 /* xlight-iosTests.xctest */,
+				DCAB1EC91DFEDA5200B99F13 /* xlight-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAB1EA41DFEDA5200B99F13 /* xlight-ios */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB1EE01DFEE5F500B99F13 /* xlight-ios.entitlements */,
+				DCAB1EA81DFEDA5200B99F13 /* AppDelegate.h */,
+				DCAB1EA91DFEDA5200B99F13 /* AppDelegate.m */,
+				DCAB1EAB1DFEDA5200B99F13 /* ViewController.h */,
+				DCAB1EAC1DFEDA5200B99F13 /* ViewController.m */,
+				DCAB1EE11DFEE79700B99F13 /* MSBluetoothManager.h */,
+				DCAB1EE21DFEE79700B99F13 /* MSBluetoothManager.m */,
+				DCAB1EE31DFEE79700B99F13 /* ReadMe.txt */,
+				DCAB1EAE1DFEDA5200B99F13 /* Main.storyboard */,
+				DCAB1EB41DFEDA5200B99F13 /* Assets.xcassets */,
+				DCAB1EB61DFEDA5200B99F13 /* LaunchScreen.storyboard */,
+				DCAB1EB91DFEDA5200B99F13 /* Info.plist */,
+				DCAB1EB11DFEDA5200B99F13 /* xlight_ios.xcdatamodeld */,
+				DCAB1EA51DFEDA5200B99F13 /* Supporting Files */,
+			);
+			path = "xlight-ios";
+			sourceTree = "<group>";
+		};
+		DCAB1EA51DFEDA5200B99F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB1EA61DFEDA5200B99F13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCAB1EC11DFEDA5200B99F13 /* xlight-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB1EC21DFEDA5200B99F13 /* xlight_iosTests.m */,
+				DCAB1EC41DFEDA5200B99F13 /* Info.plist */,
+			);
+			path = "xlight-iosTests";
+			sourceTree = "<group>";
+		};
+		DCAB1ECC1DFEDA5200B99F13 /* xlight-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB1ECD1DFEDA5200B99F13 /* xlight_iosUITests.m */,
+				DCAB1ECF1DFEDA5200B99F13 /* Info.plist */,
+			);
+			path = "xlight-iosUITests";
+			sourceTree = "<group>";
+		};
+		DCAB1EDB1DFEE06200B99F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB1EDC1DFEE06200B99F13 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAB1EA11DFEDA5200B99F13 /* xlight-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB1ED21DFEDA5200B99F13 /* Build configuration list for PBXNativeTarget "xlight-ios" */;
+			buildPhases = (
+				DCAB1E9E1DFEDA5200B99F13 /* Sources */,
+				DCAB1E9F1DFEDA5200B99F13 /* Frameworks */,
+				DCAB1EA01DFEDA5200B99F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xlight-ios";
+			productName = "xlight-ios";
+			productReference = DCAB1EA21DFEDA5200B99F13 /* xlight-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCAB1EBD1DFEDA5200B99F13 /* xlight-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB1ED51DFEDA5200B99F13 /* Build configuration list for PBXNativeTarget "xlight-iosTests" */;
+			buildPhases = (
+				DCAB1EBA1DFEDA5200B99F13 /* Sources */,
+				DCAB1EBB1DFEDA5200B99F13 /* Frameworks */,
+				DCAB1EBC1DFEDA5200B99F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAB1EC01DFEDA5200B99F13 /* PBXTargetDependency */,
+			);
+			name = "xlight-iosTests";
+			productName = "xlight-iosTests";
+			productReference = DCAB1EBE1DFEDA5200B99F13 /* xlight-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCAB1EC81DFEDA5200B99F13 /* xlight-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB1ED81DFEDA5200B99F13 /* Build configuration list for PBXNativeTarget "xlight-iosUITests" */;
+			buildPhases = (
+				DCAB1EC51DFEDA5200B99F13 /* Sources */,
+				DCAB1EC61DFEDA5200B99F13 /* Frameworks */,
+				DCAB1EC71DFEDA5200B99F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAB1ECB1DFEDA5200B99F13 /* PBXTargetDependency */,
+			);
+			name = "xlight-iosUITests";
+			productName = "xlight-iosUITests";
+			productReference = DCAB1EC91DFEDA5200B99F13 /* xlight-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAB1E9A1DFEDA5200B99F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "数言";
+				TargetAttributes = {
+					DCAB1EA11DFEDA5200B99F13 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9J92KW5P2F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+					DCAB1EBD1DFEDA5200B99F13 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCAB1EA11DFEDA5200B99F13;
+					};
+					DCAB1EC81DFEDA5200B99F13 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCAB1EA11DFEDA5200B99F13;
+					};
+				};
+			};
+			buildConfigurationList = DCAB1E9D1DFEDA5200B99F13 /* Build configuration list for PBXProject "xlight-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAB1E991DFEDA5200B99F13;
+			productRefGroup = DCAB1EA31DFEDA5200B99F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAB1EA11DFEDA5200B99F13 /* xlight-ios */,
+				DCAB1EBD1DFEDA5200B99F13 /* xlight-iosTests */,
+				DCAB1EC81DFEDA5200B99F13 /* xlight-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAB1EA01DFEDA5200B99F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB1EB81DFEDA5200B99F13 /* LaunchScreen.storyboard in Resources */,
+				DCAB1EB51DFEDA5200B99F13 /* Assets.xcassets in Resources */,
+				DCAB1EE51DFEE79700B99F13 /* ReadMe.txt in Resources */,
+				DCAB1EB01DFEDA5200B99F13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB1EBC1DFEDA5200B99F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB1EC71DFEDA5200B99F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAB1E9E1DFEDA5200B99F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB1EAD1DFEDA5200B99F13 /* ViewController.m in Sources */,
+				DCAB1EB31DFEDA5200B99F13 /* xlight_ios.xcdatamodeld in Sources */,
+				DCAB1EAA1DFEDA5200B99F13 /* AppDelegate.m in Sources */,
+				DCAB1EA71DFEDA5200B99F13 /* main.m in Sources */,
+				DCAB1EE41DFEE79700B99F13 /* MSBluetoothManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB1EBA1DFEDA5200B99F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB1EC31DFEDA5200B99F13 /* xlight_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB1EC51DFEDA5200B99F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB1ECE1DFEDA5200B99F13 /* xlight_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAB1EC01DFEDA5200B99F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAB1EA11DFEDA5200B99F13 /* xlight-ios */;
+			targetProxy = DCAB1EBF1DFEDA5200B99F13 /* PBXContainerItemProxy */;
+		};
+		DCAB1ECB1DFEDA5200B99F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAB1EA11DFEDA5200B99F13 /* xlight-ios */;
+			targetProxy = DCAB1ECA1DFEDA5200B99F13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAB1EAE1DFEDA5200B99F13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAB1EAF1DFEDA5200B99F13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAB1EB61DFEDA5200B99F13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAB1EB71DFEDA5200B99F13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAB1ED01DFEDA5200B99F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCAB1ED11DFEDA5200B99F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAB1ED31DFEDA5200B99F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J92KW5P2F;
+				INFOPLIST_FILE = "xlight-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuyan.xlight.xlight-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCAB1ED41DFEDA5200B99F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J92KW5P2F;
+				INFOPLIST_FILE = "xlight-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuyan.xlight.xlight-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCAB1ED61DFEDA5200B99F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "xlight-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuyan.xlight.xlight-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xlight-ios.app/xlight-ios";
+			};
+			name = Debug;
+		};
+		DCAB1ED71DFEDA5200B99F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "xlight-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuyan.xlight.xlight-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xlight-ios.app/xlight-ios";
+			};
+			name = Release;
+		};
+		DCAB1ED91DFEDA5200B99F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "xlight-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuyan.xlight.xlight-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "xlight-ios";
+			};
+			name = Debug;
+		};
+		DCAB1EDA1DFEDA5200B99F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "xlight-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuyan.xlight.xlight-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "xlight-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAB1E9D1DFEDA5200B99F13 /* Build configuration list for PBXProject "xlight-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB1ED01DFEDA5200B99F13 /* Debug */,
+				DCAB1ED11DFEDA5200B99F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAB1ED21DFEDA5200B99F13 /* Build configuration list for PBXNativeTarget "xlight-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB1ED31DFEDA5200B99F13 /* Debug */,
+				DCAB1ED41DFEDA5200B99F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCAB1ED51DFEDA5200B99F13 /* Build configuration list for PBXNativeTarget "xlight-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB1ED61DFEDA5200B99F13 /* Debug */,
+				DCAB1ED71DFEDA5200B99F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCAB1ED81DFEDA5200B99F13 /* Build configuration list for PBXNativeTarget "xlight-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB1ED91DFEDA5200B99F13 /* Debug */,
+				DCAB1EDA1DFEDA5200B99F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCAB1EB11DFEDA5200B99F13 /* xlight_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCAB1EB21DFEDA5200B99F13 /* xlight_ios.xcdatamodel */,
+			);
+			currentVersion = DCAB1EB21DFEDA5200B99F13 /* xlight_ios.xcdatamodel */;
+			path = xlight_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCAB1E9A1DFEDA5200B99F13 /* Project object */;
+}
